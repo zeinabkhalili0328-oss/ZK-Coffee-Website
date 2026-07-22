@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ZK Coffee | Cart</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+
+<body>
+
+
+     <header class="navbar">
+        <div id="preloader">
+            <div class="loader-logo">Z<span>K</span></div>
+            <div class="loader-line"></div>
+        </div>
+        <div class="logo">Z<span>K</span></div>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav id="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="order.html">Cart</a>
+        </nav>
+    </header>
+    <!-- Hero -->
+    <div class="menu-overlay"></div>
+
+
+
+
+    <!-- ==========================
+        CART HERO
+========================== -->
+
+
+    <section class="cart-hero">
+
+
+        <div class="cart-overlay"></div>
+
+
+        <div class="cart-hero-content">
+
+
+            <h1>Your Coffee Order</h1>
+
+            <p>
+                Review your selected items and complete your order.
+            </p>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- ==========================
+        CART SECTION
+========================== -->
+
+
+    <section class="cart-section reveal">
+
+
+        <div class="cart-container">
+
+
+
+            <!-- ITEMS -->
+
+
+            <div class="cart-items">
+
+
+                <h2>Your Items</h2>
+
+
+
+                <div class="cart-card">
+
+
+                    <img src="images/espresso.jpeg" alt="Espresso">
+
+
+                    <div class="cart-info">
+
+                        <h3>Espresso</h3>
+
+                        <p>
+                            Rich, bold Italian espresso.
+                        </p>
+
+
+                        <div class="cart-actions">
+
+
+                            <span class="price">
+                                $4.50
+                            </span>
+
+
+                            <div class="quantity">
+
+                                <button>-</button>
+
+                                <span>1</span>
+
+                                <button>+</button>
+
+                            </div>
+
+
+                            <button class="remove">
+                                Remove
+                            </button>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+
+                <div class="cart-card">
+
+
+                    <img src="images/latte.jpeg" alt="Latte">
+
+
+                    <div class="cart-info">
+
+                        <h3>Latte</h3>
+
+                        <p>
+                            Smooth milk blended with coffee.
+                        </p>
+
+
+                        <div class="cart-actions">
+
+
+                            <span class="price">
+                                $5.50
+                            </span>
+
+
+                            <div class="quantity">
+
+                                <button>-</button>
+
+                                <span>1</span>
+
+                                <button>+</button>
+
+                            </div>
+
+
+                            <button class="remove">
+                                Remove
+                            </button>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+            <!-- SUMMARY -->
+
+
+            <div class="order-summary">
+
+
+                <h2>
+                    Order Summary
+                </h2>
+
+
+
+                <div class="summary-row">
+
+                    <span>
+                        Subtotal
+                    </span>
+
+                    <span>
+                        $10.00
+                    </span>
+
+                </div>
+
+
+
+                <div class="summary-row">
+
+                    <span>
+                        Delivery
+                    </span>
+
+                    <span>
+                        $2.00
+                    </span>
+
+                </div>
+
+
+
+
+                <div class="summary-total">
+
+
+                    <span>
+                        Total
+                    </span>
+
+
+                    <span>
+                        $12.00
+                    </span>
+
+
+                </div>
+
+
+
+                <a href="#checkout" class="btn-primary checkout-btn">
+
+                    Checkout
+
+                </a>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <!-- ==========================
+        CHECKOUT FORM
+========================== -->
+
+    <section class="checkout reveal" id="checkout">
+
+
+        <h2>
+            Customer Information
+        </h2>
+
+
+
+        <div class="checkout-container">
+
+
+            <form>
+
+
+                <input type="text" placeholder="Full Name">
+
+
+
+                <input type="email" placeholder="Email Address">
+
+
+
+                <input type="tel" placeholder="Phone Number">
+
+
+
+                <textarea placeholder="Delivery Address"></textarea>
+
+
+
+                <select>
+
+                    <option>
+                        Payment Method
+                    </option>
+
+                    <option>
+                        Credit Card
+                    </option>
+
+                    <option>
+                        Cash
+                    </option>
+
+                </select>
+
+
+
+                <button class="btn-primary">
+                    Place Order
+                </button>
+
+
+
+            </form>
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+    <!-- ==========================
+        CTA
+========================== -->
+
+
+    <section class="cart-cta reveal">
+
+
+        <h2>
+            Need More Coffee?
+        </h2>
+
+
+        <p>
+            Explore our menu and discover your favorite drink.
+        </p>
+
+
+        <a href="menu.html" class="btn-primary">
+            Explore Menu
+        </a>
+
+
+
+    </section>
+
+
+
+
+
+
+    <footer class="footer reveal">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h2 class="f-logo"><span>Z</span> <span class="k">K</span><span class="coffee">Coffee</span></h2>
+                <p></p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p><i class="fa-solid fa-location-dot"></i>Paris , France</p>
+                <p><i class="fa-solid fa-phone"></i>+33 123 456 789</p>
+                <p><i class="fa-solid fa-envelope"></i>info@zkcoffee.com</p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            </div>
+        </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 ZK Coffee. All rights reserved.</p>
+        </div>
+    </footer>
+    <button id="backToTop"><i class="fa-solid fa-arrow-up"></i></button>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
