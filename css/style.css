@@ -1540,7 +1540,7 @@ nav.active{
 
     .menu-item{
 
-        height: 400px;
+        height: 450px;
     }
     
     .menu-item img {
@@ -1577,6 +1577,7 @@ nav.active{
 @media(max-width:768px) {
     .menu-grid{
         grid-template-columns: repeat(3,1fr);
+        gap: 25px;
     }
     .menu-hero {
         height: 50vh;
@@ -1588,14 +1589,6 @@ nav.active{
 
     .menu-section {
         padding: 80px 7%;
-    }
-
-    .menu-grid {
-        gap: 25px;
-    }
-
-    .menu-grid {
-        gap: 16px;
     }
 
     .menu-item img {
@@ -1685,7 +1678,7 @@ nav.active{
     }
 
     .menu-item{
-        height: 350px;
+        height: 400px;
     }
     .menu-item img {
         height: 130px;
